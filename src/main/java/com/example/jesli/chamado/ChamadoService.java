@@ -1,16 +1,16 @@
-package com.example.joao.Chamado;
+package com.example.jesli.chamado;
 
 import jakarta.validation.Valid;
 import org.hibernate.ObjectNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.example.joao.Cliente.Cliente;
-import com.example.joao.Cliente.ClienteService;
-import com.example.joao.Enums.Prioridade;
-import com.example.joao.Enums.Status;
-import com.example.joao.Tecnico.Tecnico;
-import com.example.joao.Tecnico.TecnicoService;
+import com.example.jesli.cliente.Cliente;
+import com.example.jesli.cliente.ClienteService;
+import com.example.jesli.enums.Prioridade;
+import com.example.jesli.enums.Status;
+import com.example.jesli.tecnico.Tecnico;
+import com.example.jesli.tecnico.TecnicoService;
 
 import java.time.LocalDate;
 import java.util.List;

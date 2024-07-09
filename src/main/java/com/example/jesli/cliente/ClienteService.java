@@ -1,4 +1,4 @@
-package com.example.joao.Cliente;
+package com.example.jesli.cliente;
 
 import jakarta.validation.Valid;
 import org.hibernate.ObjectNotFoundException;
@@ -6,8 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.stereotype.Service;
 
-import com.example.joao.Pessoa.Pessoa;
-import com.example.joao.Pessoa.PessoaRepository;
+import com.example.jesli.pessoa.Pessoa;
+import com.example.jesli.pessoa.PessoaRepository;
 
 import java.util.List;
 import java.util.Optional;

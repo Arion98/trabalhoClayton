@@ -1,9 +1,9 @@
-package com.example.joao.Chamado;
+package com.example.jesli.chamado;
 
-import com.example.joao.Cliente.Cliente;
-import com.example.joao.Enums.Prioridade;
-import com.example.joao.Enums.Status;
-import com.example.joao.Tecnico.Tecnico;
+import com.example.jesli.cliente.Cliente;
+import com.example.jesli.enums.Prioridade;
+import com.example.jesli.enums.Status;
+import com.example.jesli.tecnico.Tecnico;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import jakarta.persistence.*;
 import lombok.*;

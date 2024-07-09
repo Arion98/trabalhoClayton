@@ -1,8 +1,8 @@
-package com.example.joao.Cliente;
+package com.example.jesli.cliente;
 
-import com.example.joao.Chamado.Chamado;
-import com.example.joao.Enums.Perfil;
-import com.example.joao.Pessoa.Pessoa;
+import com.example.jesli.chamado.Chamado;
+import com.example.jesli.enums.Perfil;
+import com.example.jesli.pessoa.Pessoa;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import jakarta.persistence.Entity;

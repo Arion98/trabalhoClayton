@@ -1,4 +1,4 @@
-package com.example.joao.Cliente;
+package com.example.jesli.cliente;
 
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @RestController
-@RequestMapping(value = "/clientes")
+@RequestMapping(value = "/cliente")
 public class ClienteResource {
 
     @Autowired

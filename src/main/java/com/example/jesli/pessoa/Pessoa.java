@@ -1,4 +1,4 @@
-package com.example.joao.Pessoa;
+package com.example.jesli.pessoa;
 
 import java.io.Serializable;
 import java.time.LocalDate;
@@ -6,7 +6,7 @@ import java.util.HashSet;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-import com.example.joao.Enums.Perfil;
+import com.example.jesli.enums.Perfil;
 import com.fasterxml.jackson.annotation.JsonFormat;
 
 import jakarta.persistence.*;

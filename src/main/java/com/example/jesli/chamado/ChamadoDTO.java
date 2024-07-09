@@ -1,4 +1,4 @@
-package com.example.joao.Chamado;
+package com.example.jesli.chamado;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import jakarta.validation.constraints.NotNull;

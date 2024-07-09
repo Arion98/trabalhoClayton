@@ -1,4 +1,4 @@
-package com.example.joao.Cliente;
+package com.example.jesli.cliente;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

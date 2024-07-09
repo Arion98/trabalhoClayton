@@ -1,4 +1,4 @@
-package com.example.joao.Chamado;
+package com.example.jesli.chamado;
 
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @RestController
-@RequestMapping(value = "/chamados")
+@RequestMapping(value = "/chamado")
 public class ChamadoResource {
 
     @Autowired

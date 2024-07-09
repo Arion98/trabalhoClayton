@@ -1,12 +1,11 @@
-package com.example.joao.Cliente;
+package com.example.jesli.tecnico;
 
+import com.example.jesli.enums.Perfil;
+import com.fasterxml.jackson.annotation.JsonFormat;
 import jakarta.validation.constraints.NotNull;
 import lombok.Getter;
 import lombok.Setter;
 import org.hibernate.validator.constraints.br.CPF;
-
-import com.example.joao.Enums.Perfil;
-import com.fasterxml.jackson.annotation.JsonFormat;
 
 import java.io.Serializable;
 import java.time.LocalDate;
@@ -16,7 +15,7 @@ import java.util.stream.Collectors;
 
 @Getter
 @Setter
-public class ClienteDTO implements Serializable {
+public class TecnicoDTO implements Serializable {
     private static final long serialVersionUID = 1L;
 
     protected Integer id;
@@ -39,12 +38,12 @@ public class ClienteDTO implements Serializable {
     @JsonFormat(pattern = "dd/MM/yyyy")
     protected LocalDate dataCriacao = LocalDate.now();
 
-    public ClienteDTO() {
+    public TecnicoDTO() {
         super();
-        addPerfil(Perfil.CLIENTE);
+        addPerfil(Perfil.TECNICO);
     }
 
-    public ClienteDTO(Cliente obj) {
+    public TecnicoDTO(Tecnico obj) {
         this.id = obj.getId();
         this.nome = obj.getNome();
         this.cpf = obj.getCpf();
@@ -52,7 +51,7 @@ public class ClienteDTO implements Serializable {
         this.senha = obj.getSenha();
         this.perfis = obj.getPerfis().stream().map(x -> x.getCodigo()).collect(Collectors.toSet());
         this.dataCriacao = obj.getDataCriacao();
-        addPerfil(Perfil.CLIENTE);
+        addPerfil(Perfil.TECNICO);
     }
 
     public Set<Perfil> getPerfis() {

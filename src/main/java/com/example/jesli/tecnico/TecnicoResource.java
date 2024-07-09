@@ -1,4 +1,4 @@
-package com.example.joao.Tecnico;
+package com.example.jesli.tecnico;
 
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;

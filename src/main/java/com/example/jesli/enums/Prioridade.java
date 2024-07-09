@@ -1,4 +1,4 @@
-package com.example.joao.Enums;
+package com.example.jesli.enums;
 
 import lombok.Getter;
 
